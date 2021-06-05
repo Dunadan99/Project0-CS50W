@@ -3,6 +3,17 @@
     margin: 21px;
 }
 
+.header-adv {
+    display: flex;
+    padding-top: 8px;
+    padding-bottom: 20px;
+}
+
+.links-adv {
+    margin-left: auto;
+    text-align: right;
+}
+
 .nav-links {
     font-family: Arial, Helvetica, sans-serif;
     color: black;
@@ -12,6 +23,12 @@
 }
 
 .nav-links:hover {text-decoration: underline;}
+
+#SmallLogo{ 
+    text-align: left;
+    padding-left: 12px;
+}
+
 
 body {
     font-size: 16px;
@@ -24,7 +41,7 @@ body {
     background-size: 272px 92px;
     height: 92px;
     width: 272px;
-    background-image: url(GoogleLogo.png);
+    background-image: url(https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png);
     background-repeat: no-repeat;
 }
 
