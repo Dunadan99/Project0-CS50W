@@ -5,17 +5,32 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <header class="header-adv">
-            <div>
-                <img id="SmallLogo" src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg" alt="LogoSmall">
+        <header>
+            <div class="header-adv">
+                <div>
+                    <img id="SmallLogo" src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg" alt="LogoSmall">
+                </div>
+                <div class="links-adv">                
+                    <a class="nav-links" href="index.html">Back to Google search</a>
+                    <a class="nav-links" href="images.html">Image Search</a>
+                </div>    
             </div>
-            <div class="links-adv">                
-                <a class="nav-links" href="index.html">Back to Google search</a>
-                <a class="nav-links" href="images.html">Image Search</a>
-            </div>      
+            <div class="label">
+                <label style="padding-left: 10px;">Advanced Search</label>
+            </div>
         </header>
         <section>
+            <div class="forms-div">
+                <form action="https://www.google.com/search">
+                    <input type="text" name="as_q">
+                    <input type="text" name="as_epq">
+                    <input type="text" name="as_oq">
+                    <input type="text" name="as_eq">
+                    <input type="submit" value="Advanced Search">
+                </form>
+            </div>
             
+
         </section>           
     </body>
 </html>
