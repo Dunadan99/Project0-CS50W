@@ -4,7 +4,7 @@ body{ margin: 0px;}
     margin: 21px;
 }
 
-.header-adv {
+.header-adv{
     display: flex;
     align-items: center;
     padding-top: 16px;
