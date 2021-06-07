@@ -1,4 +1,5 @@
-body{ margin: 1px;}
+/* body{ margin: 0px;} */
+
 .header {
     text-align: right;
     margin: 21px;
@@ -7,9 +8,7 @@ body{ margin: 1px;}
 .header-adv{
     display: flex;
     align-items: center;
-    padding-top: 16px;
-    padding-inline: 8px;
-    padding-bottom: 14px;
+    padding-left: 16px 8px 14px 8px;
 }
 
 .links-adv {
