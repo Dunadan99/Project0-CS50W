@@ -6,12 +6,13 @@
 }
 
 .header-adv{
-    display: flex;
+    display: inline;
     align-items: center;
     padding: 16px 8px 14px 8px;
 }
 
 .links-adv {
+    display: inline;
     margin-left: auto;
     text-align: right;
 }
