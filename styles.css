@@ -9,7 +9,7 @@ body{ margin: 0px;}
     align-items: center;
     padding-top: 16px;
     padding-inline: 8px;
-    padding-bottom: 16px;
+    padding-bottom: 14px;
 }
 
 .links-adv {
@@ -29,7 +29,7 @@ body{ margin: 0px;}
 
 #SmallLogo{
     padding-left: 12px;
-    margin-top: 4px;
+    margin-top: 6px;
 }
 
 .label{
@@ -125,7 +125,48 @@ svg {
 }
 
 .forms-div{
-    margin: 40px 45px;
+    max-width: 1140px;
+    min-width: 200px;
+    width: 96%;
+    margin: 40px 2% 0 45px;}
+
+.first-div *{
+    display: inline-block;
+    color: #333;
 }
+
+.div-adv-11{
+    vertical-align: middle;
+    width: 16%;
+    min-height: 42px;
+    min-width: 167px;
+}
+
+.adv-11 {
+    padding: 6px 0px 12px;
+    font-size: 16px;
+}
+
+.div-adv-12{
+    min-width: 167px;
+    min-height: 41px;
+    width: 50%;
+    vertical-align: middle;
+}
+
+.div-adv-13{
+    font-size: 13px;
+    font-weight: 700;
+    width: 32%;
+    vertical-align: middle;
+}
+
+.adv-13{
+    text-align: left;
+    min-height: 30px;
+    color: #777;
+}
+
+
 
 
